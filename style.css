@@ -19,7 +19,7 @@ header {
   height: 200px;
   width: auto;
   background-color: #fff;
-  background-image:url(images/green-plants.webp);
+  background-image:url(images/green-plants.png);
   background-size: auto;
   align-content: center;
 }
@@ -27,7 +27,7 @@ header {
 footer {
   height: 90px;
   background-color: #fff;
-  background-image:url(images/green-plants.webp);
+  background-image:url(images/green-plants.png);
   align-content: center;
 }
 
@@ -36,7 +36,8 @@ footer {
 section {
   padding-top: 50px;
   padding-bottom: 50px;
-  width: 580px;
+  width: auto;
+  max-width: 540px;
   margin: auto;
 }
 
@@ -158,10 +159,12 @@ footer a:active { color: #00baad; }
 
 /* Elements */
 
-img, iframe { border-radius: 8px;}
+img, iframe {
+    border-radius: 8px;
+}
 
 iframe { border: 1px solid #000;
-         height: 400px;
+         height: auto;
          width: 100%; }
 
 hr { border: .5px solid #000;
